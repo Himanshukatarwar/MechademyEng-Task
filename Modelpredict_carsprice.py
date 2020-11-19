@@ -10,5 +10,5 @@ class Model(object):
 
     def predict(self, data):
         process_data = self.process_data.transform_data(data)
-        model = load('trained model/carpriceprediction_model.joblib')
+        model = load('TrainedModel/carpriceprediction_model.joblib')
         return model.predict(process_data)
