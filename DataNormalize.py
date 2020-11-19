@@ -2,7 +2,7 @@ import pickle
 
 class Normalize():
     def __init__(self):
-        with open('requirement/Normalize.pkl', 'rb') as handle:
+        with open('supporting file/Normalize.pkl', 'rb') as handle:
             self.normalize= pickle.load(handle)
     def transform(self,data,state = 'GTCOMP'):
         data = data.dropna()
