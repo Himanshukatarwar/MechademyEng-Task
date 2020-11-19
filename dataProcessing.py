@@ -5,14 +5,14 @@ import numpy as np
 
 class ProcessData(object):
     def __init__(self):
-        self.colorEncoding = self.openPickle_file("requirement/colorEncoding.pkl")
-        self.conditionEncoding = self.openPickle_file("requirement/conditionEncoding.pkl")
-        self.drive_unitEncoding = self.openPickle_file("requirement/drive_unitEncoding.pkl")
+        self.colorEncoding = self.openPickle_file("supporting files/colorEncoding.pkl")
+        self.conditionEncoding = self.openPickle_file("supporting files/conditionEncoding.pkl")
+        self.drive_unitEncoding = self.openPickle_file("supporting files/drive_unitEncoding.pkl")
         self.ExtendEncoding = ExtendEncoding()
-        self.fuel_typeEncoding = self.openPickle_file("requirement/fuel_typeEncoding.pkl")
-        self.makeEncoding = self.openPickle_file("requirement/makeEncoding.pkl")
-        self.segmentEncoding = self.openPickle_file("requirement/segmentEncoding.pkl")
-        self.transmissionEncoding = self.openPickle_file("requirement/transmissionEncoding.pkl")
+        self.fuel_typeEncoding = self.openPickle_file("supporting files/fuel_typeEncoding.pkl")
+        self.makeEncoding = self.openPickle_file("supporting files/makeEncoding.pkl")
+        self.segmentEncoding = self.openPickle_file("supporting files/segmentEncoding.pkl")
+        self.transmissionEncoding = self.openPickle_file("supporting files/transmissionEncoding.pkl")
         self.Normalize = Normalize()
 
     def openPickle_file(self, path):
