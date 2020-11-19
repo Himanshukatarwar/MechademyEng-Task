@@ -17,11 +17,11 @@ class ExtendEncoding(object):
 
     def __init__(self):
 
-        with open('requirement/total_manufacture_model.pickle', 'rb') as handle:
+        with open('supporting files/total_manufacture_model.pickle', 'rb') as handle:
             self.total_manufacture_model = pickle.load(handle)
-        with open('requirement/manufacture.pickle', 'rb') as handle:
+        with open('supporting files/manufacture.pickle', 'rb') as handle:
             self.manufacture = pickle.load(handle)
-        with open('requirement/make_encoder_dict.pickle', 'rb') as handle:
+        with open('supporting files/make_encoder_dict.pickle', 'rb') as handle:
             self.make_encoder_dict = pickle.load(handle)
 
     def transform(self, data):
