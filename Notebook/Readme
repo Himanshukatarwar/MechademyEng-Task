@@ -1,0 +1,6 @@
+# Assignment 1 - Used Cars Price Prediction and Evaluation(Car_price.csv)
+    Analysis.ipynb file contain the solution
+# Assignment 2 - Propulsion Plants Decay Evaluation(propulsion.csv)
+    This divide into two different ipy notebook
+    Task2A = This will analysis and train model on propulsion data with respective GT Turbine decay state coefficient
+    Task2B = This will analysis and train model on propulsion data with respective GT Compressor decay state coefficient/
